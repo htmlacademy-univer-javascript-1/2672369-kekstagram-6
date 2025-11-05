@@ -6,6 +6,7 @@ function checkStringLength(str, maxLength) {
 }
 
 // Примеры проверки работы функции:
+checkStringLength('проверяемая строка', 20);
 /*
 console.log(checkStringLength('проверяемая строка', 20)); // true Cтрока короче 20 символов
 console.log(checkStringLength('проверяемая строка', 18)); // true Длина строки ровно 18 символов
@@ -26,6 +27,7 @@ function isPalindrome(str) {
 }
 
 // Примеры проверки:
+isPalindrome('топот');
 /*
 console.log(isPalindrome('топот')); // true
 console.log(isPalindrome('ДовОд')); // true
